@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding-top:30px;
+    height: 120px;
+    width:100%;
+    background-color: beige;
+
+}
+h1{
+    font-size: 45px;
+    color:rgb(250, 73, 19);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+.slider{
+    margin-top: 50px;
+    height:600px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+}
+
+.slider .left_side{
+    background: url('/image/th.jpg') center/cover no-repeat;
+}
+
+.imgSl .img1{
+    height:500px;
+    width:500px;
+}
+
+.img1 img{
+    position: relative;
+    height:500px;
+    width:500px;
+}
+
+.img1 a{
+    height:35px;
+    width:65px;
+    position: absolute;
+    font-size:25px;
+    font-weight:bold;
+    color:#000;
+    background-color:rgb(167, 79, 64);
+}
+
+a:hover{
+    color:#fff;
+}
+
+.title2 p,
+.title1 p{
+    font-size:24px;
+    font-style: oblique;
+    color:rgb(124, 37, 30);
+    text-align: center;
+
+}
+
+.slider .right_side{
+    background: url('/image/ln.jpg') center/cover no-repeat;
+}
+
+.content{
+    margin-top: 50px;
+    height:600px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.content .left_side{
+    background: url('/image/th3.jpg') center/cover no-repeat;
+}
+
+.imgbx .img3{
+    height:500px;
+    width:500px;
+}
+
+.img3 img{
+    position: relative;
+    height:500px;
+    width:500px;
+}
+
+.img3 a{
+    height:35px;
+    width:65px;
+    position: absolute;
+    font-size:25px;
+    font-weight:bold;
+    color:#000;
+    background-color:rgb(167, 79, 64);
+}
+
+a:hover{
+    color:#fff;
+}
+
+.title3 p,
+.title4 p{
+    font-size:24px;
+    font-style: oblique;
+    color:rgb(124, 37, 30);
+    text-align: center;
+
+}
+
+.content .right_side{
+    background: url('/image/ln.jpg') center/cover no-repeat;
+}
+
+.footer{
+    height: 150px;
+    width:100%;
+    background-color: #fff;
+}
